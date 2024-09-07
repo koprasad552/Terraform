@@ -7,7 +7,7 @@ env:
   TF_CLOUD_ORGANIZATION: "koppula"
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
   TF_WORKSPACE: "Terraform"
-  CONFIG_DIRECTORY: "/vpc"
+  CONFIG_DIRECTORY: "./vpc/"
 
 jobs:
   terraform:
