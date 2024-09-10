@@ -81,7 +81,7 @@ variable "cluster_config" {
   })
   default = {
     name    = "eks-cluster"
-    version = "1.22"
+    version = "1.30"
   }
 }
 
